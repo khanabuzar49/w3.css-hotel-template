@@ -7,6 +7,39 @@
     <title>Hotel Template</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Logo</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- section for image and form tag starts here-->
+    <section id="banner">
+        <img src="https://www.w3schools.com/w3images/hotel.jpg" alt="hotel-beach-resort">
+        <div id="form-details">
+            <h2>Hotel Name</h2>
+            <form>
+                <div id="check-in-out">
+                    <label for="chech-in">Check In</label>
+                    <input type="date" id="check-in" placeholder="DD MM YYYY" name="check-in" required>
+                    <label for="chech-out">Check Out</label>
+                    <input type="date" id="check-out" placeholder="DD MM YYYY" name="check-out" required>
+                </div>
+                <div id="adults-kids">
+                    <label for="adults">Adults</label>
+                    <input type="number" id="adults" name="adults" value="1">
+                    <label for="kids">Kids</label>
+                    <input type="number" id="kids" name="kids" value="0">
+                </div>
+                <input type="button" value="Search availability">
+            </form>
+        </div>
+    </section>
+    <!-- form and image tag section ends here -->
 </body>
 </html>
